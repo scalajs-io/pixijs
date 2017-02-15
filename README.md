@@ -1,25 +1,48 @@
-Pixi.js API for Scala.js
+Pixijs API for Scala.js
 ================================
-This is a Scala.js type-safe binding for [Pixi.js v4](http://pixijs.download/release/docs/index.html)
+[pixijs](http://pixijs.download/release/docs/index.html) - Super fast HTML 5 2D rendering engine that uses webGL with canvas fallback
 
-<a name="build_requirements"></a>
-#### Build Requirements
+### Description
 
-* [ScalaJs.io v0.3.x](https://github.com/ldaniels528/scalajs.io)
+The aim of this project is to provide a fast lightweight 2D library that works across all devices. 
+The Pixi renderer allows everyone to enjoy the power of hardware acceleration without prior knowledge of WebGL. 
+Also, it's fast. Really fast.
+
+### Build Requirements
+
+* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
-<a name="building_sdk"></a>
-#### Build/publish the SDK locally
+### Build/publish the SDK locally
 
 ```bash
  $ sbt clean publish-local
 ```
 
-<a name="resolvers"></a>
-#### Resolvers
+### Running the tests
 
-To add the Pixi.js binding to your project, add the following to your build.sbt:  
+Before running the tests the first time, you must ensure the npm packages are installed:
 
-```   
+```bash
+$ npm install
+```
+
+Then you can run the tests:
+
+```bash
+$ sbt test
+```
+
+### Artifacts and Resolvers
+
+To add the `Pixijs` binding to your project, add the following to your build.sbt:  
+
+```sbt
+libraryDependencies += "io.scalajs.npm" %%% "pixijs" % "4.3.5"
+```
+
+Optionally, you may add the Sonatype Repository resolver:
+
+```sbt   
 resolvers += Resolver.sonatypeRepo("releases") 
 ```

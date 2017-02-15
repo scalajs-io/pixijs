@@ -6,11 +6,11 @@ import sbt._
 
 import scala.language.postfixOps
 
-val apiVersion = "0.3.0.3"
-val scalaJsIOVersion = "0.3.0.3"
+val apiVersion = "4.3.5"
+val scalaJsIOVersion = "0.3.0.4"
 val scalaJsVersion = "2.12.1"
 
-homepage := Some(url("https://github.com/scalajs.io/pixi.js"))
+homepage := Some(url("https://github.com/scalajs.io/pixijs"))
 
 lazy val root = (project in file(".")).
   enablePlugins(ScalaJSPlugin).
