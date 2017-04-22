@@ -1,8 +1,8 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 @js.native
-@JSName("PIXI.CanvasMaskManager")
+@JSGlobal("PIXI.CanvasMaskManager")
 class CanvasMaskManager extends js.Object

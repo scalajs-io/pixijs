@@ -4,7 +4,7 @@ import io.scalajs.RawOptions
 import io.scalajs.dom.html.canvas.HTMLCanvasElement
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -14,7 +14,7 @@ import scala.scalajs.js.|
   * @param style The style parameters
   */
 @js.native
-@JSName("Text")
+@JSGlobal("Text")
 class Text(var text: String, var style: TextStyleOptions | RawOptions = js.native) extends js.Object {
 
   /**

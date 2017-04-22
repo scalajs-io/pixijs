@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * A texture stores the information that represents an image or part of an image. It cannot be added to the display
@@ -13,7 +13,7 @@ import scala.scalajs.js.annotation.JSName
   * @param rotate      indicates whether the texture should be rotated by 90 degrees ( used by texture packer )
   */
 @js.native
-@JSName("Texture")
+@JSGlobal("Texture")
 class Texture(var baseTexture: BaseTexture,
               var frame: Rectangle = js.native,
               var crop: Rectangle = js.native,
@@ -25,7 +25,7 @@ class Texture(var baseTexture: BaseTexture,
   * Texture Singleton
   */
 @js.native
-@JSName("Texture")
+@JSGlobal("Texture")
 object Texture extends js.Object {
 
   /**

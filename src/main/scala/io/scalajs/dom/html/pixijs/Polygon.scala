@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -12,7 +12,7 @@ import scala.scalajs.js.|
   *                flat x,y values e.g. new Polygon(x,y, x,y, x,y, ...) where x and y are Numbers.
   */
 @js.native
-@JSName("Polygon")
+@JSGlobal("Polygon")
 class Polygon(points_ : js.Array[Point | Double]) extends js.Object {
 
   /**

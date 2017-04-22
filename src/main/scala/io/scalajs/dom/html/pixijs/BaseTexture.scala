@@ -4,14 +4,14 @@ import io.scalajs.dom.html.Image
 import io.scalajs.dom.html.canvas.HTMLCanvasElement
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
   * A texture stores the information that represents an image. All textures have a base texture.
   */
 @js.native
-@JSName("PIXI.BaseTexture")
+@JSGlobal("PIXI.BaseTexture")
 class BaseTexture extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////
@@ -130,7 +130,7 @@ class BaseTexture extends js.Object {
   * BaseTexture Singleton
   */
 @js.native
-@JSName("PIXI.BaseTexture")
+@JSGlobal("PIXI.BaseTexture")
 object BaseTexture extends js.Object {
 
   /**

@@ -1,14 +1,14 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Graphics class contains methods used to draw primitive shapes such as lines, circles and rectangles to the
   * display, and to color and fill them.
   */
 @js.native
-@JSName("Graphics")
+@JSGlobal("Graphics")
 class Graphics extends Container {
 
   /**

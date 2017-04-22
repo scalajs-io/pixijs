@@ -3,7 +3,7 @@ package io.scalajs.dom.html.pixijs
 import io.scalajs.dom.DOMHighResTimeStamp
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -12,7 +12,7 @@ import scala.scalajs.js.|
   * frames are requested only when necessary, e.g. When the ticker is started and the emitter has listeners.
   */
 @js.native
-@JSName("PIXI.Tickers.Ticker")
+@JSGlobal("PIXI.Tickers.Ticker")
 class Ticker extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

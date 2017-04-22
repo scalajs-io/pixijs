@@ -1,10 +1,10 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 @js.native
-@JSName("WebGLManager")
+@JSGlobal("WebGLManager")
 class WebGLManager(var renderer: WebGLRenderer) extends js.Object {
 
   /**

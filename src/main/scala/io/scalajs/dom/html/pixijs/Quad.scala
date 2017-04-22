@@ -3,14 +3,14 @@ package io.scalajs.dom.html.pixijs
 import io.scalajs.dom.html.canvas.webgl.WebGLRenderingContext
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.typedarray.Float32Array
 
 /**
   * Helper class to create a quad
   */
 @js.native
-@JSName("Quad")
+@JSGlobal("Quad")
 class Quad(gl: WebGLRenderingContext) extends js.Object {
 
   /**

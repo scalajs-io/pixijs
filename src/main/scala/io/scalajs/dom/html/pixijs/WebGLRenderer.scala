@@ -3,7 +3,7 @@ package io.scalajs.dom.html.pixijs
 import io.scalajs.RawOptions
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -15,7 +15,7 @@ import scala.scalajs.js.|
   * @param options The optional renderer parameters
   */
 @js.native
-@JSName("WebGLRenderer")
+@JSGlobal("WebGLRenderer")
 class WebGLRenderer(width: Double = js.native,
                     height: Double = js.native,
                     options: WebGLRendererOptions | RawOptions = js.native)

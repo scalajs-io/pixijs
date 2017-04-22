@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Circle object can be used to specify a hit area for displayObjects.
@@ -10,7 +10,7 @@ import scala.scalajs.js.annotation.JSName
   * @param radius The radius of the circle.
   */
 @js.native
-@JSName("Circle")
+@JSGlobal("Circle")
 class Circle(var x: Double, var y: Double, var radius: Double) extends js.Object {
 
   /**

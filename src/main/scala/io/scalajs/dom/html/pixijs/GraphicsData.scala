@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * A GraphicsData object.
@@ -14,7 +14,7 @@ import scala.scalajs.js.annotation.JSName
   * @param shape     The shape object to draw.
   */
 @js.native
-@JSName("GraphicsData")
+@JSGlobal("GraphicsData")
 class GraphicsData(lineWidth: LineWidth,
                    lineColor: Color,
                    lineAlpha: Alpha,

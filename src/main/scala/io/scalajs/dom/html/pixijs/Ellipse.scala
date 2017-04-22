@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Ellipse object can be used to specify a hit area for displayObjects
@@ -11,7 +11,7 @@ import scala.scalajs.js.annotation.JSName
   * @param height The half height of this ellipse
   */
 @js.native
-@JSName("Ellipse")
+@JSGlobal("Ellipse")
 class Ellipse(var x: Double, var y: Double, var width: Double, var height: Double) extends js.Object {
 
   /**

@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Rectangle object is an area defined by its position, as indicated by its top-left corner point (x, y) and by
@@ -12,7 +12,7 @@ import scala.scalajs.js.annotation.JSName
   * @param height The overall height of this rectangle.
   */
 @js.native
-@JSName("Rectangle")
+@JSGlobal("Rectangle")
 class Rectangle(var x: Double, var y: Double, var width: Double, var height: Double) extends js.Object {
 
   /**

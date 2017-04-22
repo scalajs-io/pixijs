@@ -4,7 +4,7 @@ import io.scalajs.RawOptions
 import io.scalajs.dom.html.canvas.CanvasRenderingContext2D
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -15,7 +15,7 @@ import scala.scalajs.js.|
   * @param options The optional renderer parameters
   */
 @js.native
-@JSName("CanvasRenderer")
+@JSGlobal("CanvasRenderer")
 class CanvasRenderer(var width: Double = js.native,
                      var height: Double = js.native,
                      var options: CanvasRendererOptions | RawOptions = js.native)

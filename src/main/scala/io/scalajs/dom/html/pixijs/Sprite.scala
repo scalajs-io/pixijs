@@ -1,8 +1,8 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 @js.native
-@JSName("PIXI.Sprite")
+@JSGlobal("PIXI.Sprite")
 class Sprite extends Container

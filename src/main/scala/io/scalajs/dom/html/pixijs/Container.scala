@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -9,7 +9,7 @@ import scala.scalajs.js.|
   * It is the base class of all display objects that act as a container for other objects.
   */
 @js.native
-@JSName("PIXI.Container")
+@JSGlobal("PIXI.Container")
 class Container extends DisplayObject {
 
   /////////////////////////////////////////////////////////////////////////////////

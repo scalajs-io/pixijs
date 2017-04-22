@@ -9,7 +9,7 @@ import scala.scalajs.js.|
   * @see http://phaser.io/docs/2.6.2/PIXI.DisplayObjectContainer.html
   */
 @js.native
-//@JSName("PIXI.DisplayObjectContainer")
+//@JSGlobal("PIXI.DisplayObjectContainer")
 trait DisplayObjectContainer extends DisplayObject {
 
   /////////////////////////////////////////////////////////////////////////////////

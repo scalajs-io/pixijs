@@ -8,7 +8,7 @@ import scala.scalajs.js
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-//@JSName("PIXI.DisplayObject")
+//@JSGlobal("PIXI.DisplayObject")
 trait DisplayObject extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

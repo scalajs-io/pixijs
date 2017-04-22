@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Point object represents a location in a two-dimensional coordinate system, where x represents the horizontal
@@ -10,7 +10,7 @@ import scala.scalajs.js.annotation.JSName
   * @param y position of the point on the x axis
   */
 @js.native
-@JSName("Point")
+@JSGlobal("Point")
 class Point(var x: Double = 0, var y: Double = 0) extends js.Object {
 
   /**

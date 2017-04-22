@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The pixi Matrix class as an object, which makes it a lot faster, here is a representation of it:
@@ -15,7 +15,7 @@ import scala.scalajs.js.annotation.JSName
   * @see https://phaser.io/docs/2.2.2/PIXI.Matrix.html
   */
 @js.native
-@JSName("Matrix")
+@JSGlobal("Matrix")
 class Matrix extends js.Object {
 
   var a: Double = js.native
@@ -129,7 +129,7 @@ class Matrix extends js.Object {
   * Matrix Singleton
   */
 @js.native
-@JSName("Matrix")
+@JSGlobal("Matrix")
 object Matrix extends js.Object {
 
   /**
