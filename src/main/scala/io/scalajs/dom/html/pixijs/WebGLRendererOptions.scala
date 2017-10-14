@@ -3,7 +3,7 @@ package io.scalajs.dom.html.pixijs
 import io.scalajs.dom.html.canvas.HTMLCanvasElement
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * WebGL Renderer Options
@@ -19,7 +19,7 @@ import scala.scalajs.js.annotation.ScalaJSDefined
   *                              on the webgl context.
   * @author lawrence.daniels@gmail.com
   */
-@ScalaJSDefined
+
 class WebGLRendererOptions(var view: js.UndefOr[HTMLCanvasElement] = js.undefined,
                            var transparent: js.UndefOr[Boolean] = js.undefined,
                            var autoResize: js.UndefOr[Boolean] = js.undefined,

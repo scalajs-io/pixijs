@@ -3,7 +3,7 @@ package io.scalajs.dom.html.pixijs
 import io.scalajs.dom.html.canvas.HTMLCanvasElement
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * Auto-Detect Renderer Options
@@ -15,7 +15,7 @@ import scala.scalajs.js.annotation.ScalaJSDefined
   * @param resolution            the resolution of the renderer, retina would be 2
   * @author lawrence.daniels@gmail.com
   */
-@ScalaJSDefined
+
 class AutoDetectRendererOptions(var view: js.UndefOr[HTMLCanvasElement] = js.undefined,
                                 var transparent: js.UndefOr[Boolean] = js.undefined,
                                 var antialias: js.UndefOr[Boolean] = js.undefined,

@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 import scala.scalajs.js.|
 
 /**
@@ -28,7 +28,7 @@ import scala.scalajs.js.|
   *                           the spikiness of rendered text.
   * @author lawrence.daniels@gmail.com
   */
-@ScalaJSDefined
+
 class TextStyleOptions(var font: js.UndefOr[String] = js.undefined,
                        var fill: js.UndefOr[String | Double] = js.undefined,
                        var align: js.UndefOr[String] = js.undefined,
